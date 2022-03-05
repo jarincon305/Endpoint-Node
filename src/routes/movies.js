@@ -1,7 +1,6 @@
 const { Router } = require('express');
 const router = new Router();
 
-
 const movies = require('../movies.json');
 
 router.get('/', (req, res) => {
